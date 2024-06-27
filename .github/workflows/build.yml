@@ -51,7 +51,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: firmware-zmk-sweep
-          path: cradio_left_sparkfun_pro_micro_rp2040.uf2
+          path: cradio_left_nice_nano_v2.uf2
 
       - name: West Build (Cradio/Sweep Right)
         run: west build --pristine -s zmk/app -b nice_nano_v2 -- -DSHIELD=cradio_right -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
