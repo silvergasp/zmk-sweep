@@ -109,10 +109,10 @@
 
         numpad {
             bindings = <
-&trans  &trans     &trans     &trans     &trans    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp KP_ASTERISK
-&trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &mt RIGHT_SHIFT KP_DIVIDE
-&trans  &trans     &trans     &trans     &trans    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &kp KP_ENTER
-                              &trans     &trans    &kp KP_NUMBER_0  &trans
+&trans  &trans     &trans     &trans     &kp KP_NUMLOCK    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp KP_ASTERISK
+&trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &mt RIGHT_SHIFT KP_DIVIDE
+&trans  &trans     &trans     &trans     &trans            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &kp KP_ENTER
+                              &trans     &trans            &kp KP_NUMBER_0  &trans
             >;
         };
 
@@ -135,4 +135,3 @@
         };
     };
 };
-
