@@ -62,6 +62,11 @@
             bindings = <&mo 4>;
             key-positions = <32 33>;
         };
+
+        Windows_and_Prog {
+            bindings = <&hold_layer 2 LEFT_WIN>;
+            key-positions = <12 13>;
+        };
     };
 
     behaviors {
@@ -100,10 +105,10 @@
 
         prog {
             bindings = <
-&kp GRAVE  &trans  &trans  &trans  &kp N1    &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)
-&trans     &trans  &trans  &trans  &kp N2    &kp LS(LPAR)  &kp LS(RPAR)  &kp LBKT       &kp RBKT      &mt RIGHT_SHIFT BACKSLASH
-&trans     &trans  &trans  &trans  &kp N3    &kp COMMA     &kp DOT       &kp LS(LBRC)   &kp LS(RBRC)  &trans
-                           &trans  &trans    &trans        &trans
+&kp GRAVE     &trans  &trans  &trans  &kp N1    &kp LS(EXCL)    &kp LS(AT)       &kp LS(POUND)  &kp AMPERSAND  &kp PIPE
+&kp CAPSLOCK  &trans  &trans  &trans  &kp N2    &kp LS(LPAR)    &kp LS(RPAR)     &kp LBKT       &kp RBKT       &mt RIGHT_SHIFT BACKSLASH
+&trans        &trans  &trans  &trans  &kp N3    &kp UNDERSCORE  &kp MINUS        &kp LS(LBRC)   &kp LS(RBRC)   &trans
+                              &trans  &trans    &trans          &kp EXCLAMATION
             >;
         };
 
@@ -135,4 +140,3 @@
         };
     };
 };
-
