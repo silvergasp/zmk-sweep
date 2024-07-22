@@ -62,6 +62,11 @@
             bindings = <&mo 4>;
             key-positions = <32 33>;
         };
+
+        windows_and_program {
+            bindings = <&hold_layer 2 LEFT_WIN>;
+            key-positions = <12 13>;
+        };
     };
 
     behaviors {
@@ -135,4 +140,3 @@
         };
     };
 };
-
